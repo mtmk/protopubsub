@@ -6,15 +6,6 @@ using Xunit;
 
 namespace ProtoPubSub.Tests
 {
-    [ProtoContract]
-    public class ProtocolHeader
-    {
-        public const string ProtoIo = "PIO";
-        [ProtoMember(1)]
-        public string Magic { get; set; }
-        [ProtoMember(2)]
-        public int? Signal { get; set; }
-    }
     public enum SignalEnum
     {
         Connect = 1,

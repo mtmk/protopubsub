@@ -1,6 +1,6 @@
 ﻿using ProtoBuf;
 
-namespace ProtoPubSub.Tests
+namespace ProtoPubSub
 {
     [ProtoContract]
     public class SimpleHeaderMessage
